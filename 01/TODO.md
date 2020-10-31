@@ -18,7 +18,7 @@ each observation in the data includes several varibales:
 Write a function that accepts a beginning date and time and an ending datae and time
 return the coefficient of the slope of the barometric pressure.  
 
-[ ] Create an data entity class.  
-[ ] Create data repo.  
-[ ] Populate the repo with data from the given files.  
-[ ] write the needed function.  
+- [ ] Create an data entity class.  
+- [ ] Create data repo.  
+- [ ] Populate the repo with data from the given files.  
+- [ ] write the needed function.  
