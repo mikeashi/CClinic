@@ -4,7 +4,12 @@
 class Importer
 {
 public:
-    Importer();
+    Importer(Repo* repo);
+    void loadDateFromFile(std::string fileName);
+private:
+    Repo* repo;
+    void loadDateFromLine(std::string line);
+    time_t getDateTime(std::string date, std::string time);
 };
 
 #endif
